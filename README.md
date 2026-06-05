@@ -45,47 +45,6 @@ I don’t just code — I **analyze problems, design systems, and ship working s
 
 ---
 
-## 📌 Featured Projects
-
-### 🔹 Visa Application Management System
-A full-stack system simulating a real-world visa application platform.
-
-- Multi-user structure
-- Data management with SQL
-- Backend architecture with service layers
-- Designed for real-life scalability
-
----
-
-### 🔹 PhoneBook Application (Full Stack)
-ASP.NET Core + Angular based contact management system.
-
-- Layered architecture (Core / Data / Service / API)
-- Server-side pagination
-- Excel export (ClosedXML)
-- Logging (NLog)
-- AutoMapper integration
-
----
-
-### 🔹 AI Project Generator (Active)
-An AI-based system that generates medium-to-hard software projects from user input.
-
-- Multi-agent architecture
-- Code generation logic
-- Focused on developer productivity
-
----
-
-## 📊 Mindset
-
-I aim to move from:
-> “Someone who writes code”  
-to  
-> **“Someone who builds systems and products.”**
-
----
-
 ## 🎯 Goals
 
 - Become a **mid-level backend developer**
