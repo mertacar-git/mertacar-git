@@ -1,64 +1,37 @@
-<h1 align="center">Hi, I'm Mert Acar 👋</h1>
+# Hi, I'm Mert Açar
 
-<p align="center">
-Backend-focused Software Developer | REST API Builder | System Thinker
-</p>
+Software developer building web applications, backend systems, and aerospace analysis tools.
 
----
+I work on REST APIs and responsive interfaces, and I am developing a portfolio of flight-data, simulation, orbital-mechanics and telemetry projects. The engineering models are educational, with their assumptions and validation documented in each repository.
 
-## 🧠 About Me
+**[Portfolio](https://mertacar-git.github.io/portfolio/)** · **[Interactive aerospace laboratory](https://mertacar-git.github.io/portfolio/lab/index.html)** · **[LinkedIn](https://www.linkedin.com/in/mertacarr/)**
 
-I’m a software developer focused on building **real, scalable systems**, not just writing code.
+## Aerospace projects
 
-My main strength is backend development, especially designing and implementing **REST APIs, data-driven systems, and clean architectures**.  
-At the same time, I build responsive and user-focused frontends to complete the full product experience.
+| Project | What it demonstrates | Try it |
+|---|---|---|
+| [Flight Telemetry Analyzer](https://github.com/mertacar-git/flight-telemetry-analyzer) | CSV validation, flight plots, threshold analysis and exportable reports | [Demo](https://mertacar-git.github.io/flight-telemetry-analyzer/) |
+| [OrbitWatch](https://github.com/mertacar-git/orbitwatch) | SGP4 propagation, ground tracks and observer horizon events | [Demo](https://mertacar-git.github.io/orbitwatch/) |
+| [Flight Control Lab](https://github.com/mertacar-git/flight-control-lab) | PID tuning, disturbance response and controller comparison | [Demo](https://mertacar-git.github.io/flight-control-lab/) |
+| [Rocket Flight Lab](https://github.com/mertacar-git/rocket-flight-lab) | RK4 integration, changing mass, atmospheric drag and flight-event analysis | [Demo](https://mertacar-git.github.io/rocket-flight-lab/) |
+| [Aero Telemetry Protocol](https://github.com/mertacar-git/aero-telemetry-protocol) | Python/C++ codecs, CRC checks, stream recovery and wire compatibility | [Demo](https://mertacar-git.github.io/aero-telemetry-protocol/) |
+| [Wing Design Lab](https://github.com/mertacar-git/wing-design-lab) | Parametric wing geometry, analytical lift/drag estimates and NACA profiles | [Demo](https://mertacar-git.github.io/wing-design-lab/) |
 
-I don’t just code — I **analyze problems, design systems, and ship working solutions**.
+The browser demos run on-device. The repositories include local Python applications, automated tests, model notes, and actual application screenshots. Browser model outputs are compared against Python reference results; the telemetry library also checks C++/Python packet compatibility.
 
----
+## Software interests
 
-## ⚡ What I Focus On
+- REST API design and backend systems with Node.js and Express.
+- Responsive web interfaces with JavaScript and React.
+- Python data analysis and numerical simulation.
+- Binary protocols, testing and reproducible engineering experiments.
 
-- Designing **clean and scalable REST APIs**
-- Building **real-world backend systems (CRUD is not enough)**
-- Creating **user-centered, responsive frontends**
-- Writing **maintainable and structured code**
-- Thinking about **performance, security, and system design**
+## Current direction
 
----
+I am expanding my software portfolio at the intersection of aviation, space and engineering. My aim is to build understandable tools with runnable demonstrations, documented constraints and meaningful validation.
 
-## 🛠 Tech Stack
+Projects are developed with AI assistance, and include the validation needed to review and extend their implementations.
 
-**Backend**
-- Node.js, Express
-- REST API, JWT (planned), API design
-- SQL / relational data modeling
+## Contact
 
-**Frontend**
-- HTML, CSS, JavaScript
-- Responsive UI design
-
-**Tools**
-- Git & GitHub
-- API testing & development workflows
-- Deployment basics
-
----
-
-## 🎯 Goals
-
-- Become a **mid-level backend developer**
-- Build **production-ready projects**
-- Work in a strong tech team (Hepsiburada-level companies)
-- Create my own **AI-powered products**
-
----
-
-## 📫 Contact
-
-- GitHub: https://github.com/mertacar-git  
-- LinkedIn: https://www.linkedin.com/in/mertacarr/
-
----
-
-⭐ If you’re interested in backend systems, real projects, or collaboration — feel free to connect.
+[GitHub](https://github.com/mertacar-git) · [LinkedIn](https://www.linkedin.com/in/mertacarr/)
