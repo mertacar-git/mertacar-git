@@ -10,12 +10,15 @@ I work on REST APIs and responsive interfaces, and I am developing a portfolio o
 
 | Project | What it demonstrates | Try it |
 |---|---|---|
+| [Mission Control](https://github.com/mertacar-git/mission-control) | End-to-end UAV mission planning, ArduCopter SITL/MAVLink, recording, replay and reports | [Demo](https://mertacar-git.github.io/mission-control/) |
 | [Flight Telemetry Analyzer](https://github.com/mertacar-git/flight-telemetry-analyzer) | CSV validation, flight plots, threshold analysis and exportable reports | [Demo](https://mertacar-git.github.io/flight-telemetry-analyzer/) |
 | [OrbitWatch](https://github.com/mertacar-git/orbitwatch) | SGP4 propagation, ground tracks and observer horizon events | [Demo](https://mertacar-git.github.io/orbitwatch/) |
 | [Flight Control Lab](https://github.com/mertacar-git/flight-control-lab) | PID tuning, disturbance response and controller comparison | [Demo](https://mertacar-git.github.io/flight-control-lab/) |
 | [Rocket Flight Lab](https://github.com/mertacar-git/rocket-flight-lab) | RK4 integration, changing mass, atmospheric drag and flight-event analysis | [Demo](https://mertacar-git.github.io/rocket-flight-lab/) |
 | [Aero Telemetry Protocol](https://github.com/mertacar-git/aero-telemetry-protocol) | Python/C++ codecs, CRC checks, stream recovery and wire compatibility | [Demo](https://mertacar-git.github.io/aero-telemetry-protocol/) |
 | [Wing Design Lab](https://github.com/mertacar-git/wing-design-lab) | Parametric wing geometry, analytical lift/drag estimates and NACA profiles | [Demo](https://mertacar-git.github.io/wing-design-lab/) |
+
+Mission Control includes a browser-only demo and a separate local FastAPI/SQLite backend controlling its own ArduCopter SITL session. Real simulator acceptance covers mission execution, connection recovery, hold/resume/RTL and configured low-battery behavior.
 
 The browser demos run on-device. The repositories include local Python applications, automated tests, model notes, and actual application screenshots. Browser model outputs are compared against Python reference results; the telemetry library also checks C++/Python packet compatibility.
 
