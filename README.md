@@ -20,6 +20,8 @@ I work on REST APIs and responsive interfaces, and I am developing a portfolio o
 
 Mission Control includes a browser-only demo and a separate local FastAPI/SQLite backend controlling its own ArduCopter SITL session. Real simulator acceptance covers mission execution, connection recovery, hold/resume/RTL and configured low-battery behavior.
 
+Mission Control v1.3 generates routes for concave survey areas and checks complete route segments independently in the backend. Its planning boundary records observed violations without configuring an autopilot geofence. [Survey method and seven-scenario SITL evidence](https://github.com/mertacar-git/mission-control/blob/main/docs/SURVEY_PLANNING.md).
+
 The [Mission Control engineering case study](https://github.com/mertacar-git/mission-control/blob/main/docs/CASE_STUDY.md) explains reviewed mission uploads, recoverable route editing, command acknowledgment versus observation, and an actual hold-mode defect found and corrected through SITL telemetry. [Captioned walkthrough and evidence](https://github.com/mertacar-git/mission-control/blob/main/docs/media/walkthrough.md).
 
 The browser demos run on-device. The repositories include local Python applications, automated tests, model notes, and actual application screenshots. Browser model outputs are compared against Python reference results; the telemetry library also checks C++/Python packet compatibility.
@@ -40,5 +42,3 @@ Projects are developed with AI assistance, and include the validation needed to 
 ## Contact
 
 [GitHub](https://github.com/mertacar-git) · [LinkedIn](https://www.linkedin.com/in/mertacarr/)
-
-Mission Control v1.3 generates routes for concave survey areas and checks complete route segments independently in the backend. Its planning boundary records observed violations without configuring an autopilot geofence. [Survey method and seven-scenario SITL evidence](https://github.com/mertacar-git/mission-control/blob/main/docs/SURVEY_PLANNING.md).
