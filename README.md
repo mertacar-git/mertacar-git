@@ -24,6 +24,8 @@ Mission Control v1.3 generates routes for concave survey areas and checks comple
 
 Mission Control v1.4 adds reproducible fault experiments: telemetry interruption/recovery, configured low-battery RTL and GPS-loss EKF LAND. Actual recordings, persistent acceptance reports and synchronized incident investigation connect failures to inspectable evidence. [Experiment definitions and recordings](https://github.com/mertacar-git/mission-control/blob/main/docs/EXPERIMENTS.md).
 
+Mission Control v1.7 compares survey headings and measured execution using two actual 1× SITL flights. A separate synthetic computer emulator exercises CRC/sequence/boot handling over UDP, with raw replay and a compatible C++ decoder for later prototype work. [Route experiments](https://github.com/mertacar-git/mission-control/blob/main/docs/ROUTE_EXPERIMENTS.md) · [Protocol and prototype contract](https://github.com/mertacar-git/mission-control/blob/main/docs/COMPUTER_EMULATOR.md).
+
 The [Mission Control engineering case study](https://github.com/mertacar-git/mission-control/blob/main/docs/CASE_STUDY.md) explains reviewed mission uploads, recoverable route editing, command acknowledgment versus observation, and an actual hold-mode defect found and corrected through SITL telemetry. [Captioned walkthrough and evidence](https://github.com/mertacar-git/mission-control/blob/main/docs/media/walkthrough.md).
 
 The browser demos run on-device. The repositories include local Python applications, automated tests, model notes, and actual application screenshots. Browser model outputs are compared against Python reference results; the telemetry library also checks C++/Python packet compatibility.
