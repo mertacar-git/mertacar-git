@@ -10,7 +10,7 @@ I work on REST APIs and responsive interfaces, and I am developing a portfolio o
 
 | Project | What it demonstrates | Try it |
 |---|---|---|
-| [Mission Control](https://github.com/mertacar-git/mission-control) | End-to-end UAV mission planning, ArduCopter SITL/MAVLink, recording, replay and reports | [Demo](https://mertacar-git.github.io/mission-control/) |
+| [Mission Control](https://github.com/mertacar-git/mission-control) | Concave survey planning, independent boundary validation, ArduCopter SITL/MAVLink, recording and reports | [Demo](https://mertacar-git.github.io/mission-control/) |
 | [Flight Telemetry Analyzer](https://github.com/mertacar-git/flight-telemetry-analyzer) | CSV validation, flight plots, threshold analysis and exportable reports | [Demo](https://mertacar-git.github.io/flight-telemetry-analyzer/) |
 | [OrbitWatch](https://github.com/mertacar-git/orbitwatch) | SGP4 propagation, ground tracks and observer horizon events | [Demo](https://mertacar-git.github.io/orbitwatch/) |
 | [Flight Control Lab](https://github.com/mertacar-git/flight-control-lab) | PID tuning, disturbance response and controller comparison | [Demo](https://mertacar-git.github.io/flight-control-lab/) |
@@ -40,3 +40,5 @@ Projects are developed with AI assistance, and include the validation needed to 
 ## Contact
 
 [GitHub](https://github.com/mertacar-git) · [LinkedIn](https://www.linkedin.com/in/mertacarr/)
+
+Mission Control v1.3 generates routes for concave survey areas and checks complete route segments independently in the backend. Its planning boundary records observed violations without configuring an autopilot geofence. [Survey method and seven-scenario SITL evidence](https://github.com/mertacar-git/mission-control/blob/main/docs/SURVEY_PLANNING.md).
