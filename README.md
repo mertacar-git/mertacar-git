@@ -55,3 +55,5 @@ Projects are developed with AI assistance, and include the validation needed to 
 ## Contact
 
 [GitHub](https://github.com/mertacar-git) · [LinkedIn](https://www.linkedin.com/in/mertacarr/)
+
+FLW VECTOR v1.9 adds sensor-only ESP32 firmware for MPU6050/BME280, an independently versioned MCS1 wire contract and raw serial replay. Software acceptance passed 108 backend tests, 78 frontend tests and 14 desktop/mobile browser cases, including Linux PTY sensor transport and cross-language packet checks. Physical board operation and calibration remain pending. [Firmware and integration](https://github.com/mertacar-git/mission-control/blob/main/docs/SENSOR_NODE.md).
