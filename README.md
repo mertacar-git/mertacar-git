@@ -10,7 +10,7 @@ I work on REST APIs and responsive interfaces, and I am developing a portfolio o
 
 | Project | What it demonstrates | Try it |
 |---|---|---|
-| [Mission Control](https://github.com/mertacar-git/mission-control) | Concave survey planning, independent boundary validation, ArduCopter SITL/MAVLink, recording and reports | [Demo](https://mertacar-git.github.io/mission-control/) |
+| [FLW VECTOR](https://github.com/mertacar-git/mission-control) | Server-authoritative preflight, observed SITL outcomes, versioned experiments, 2–5 flight reports and an independent Windows serial receiver | [Demo](https://mertacar-git.github.io/mission-control/) |
 | [Flight Telemetry Analyzer](https://github.com/mertacar-git/flight-telemetry-analyzer) | CSV validation, flight plots, threshold analysis and exportable reports | [Demo](https://mertacar-git.github.io/flight-telemetry-analyzer/) |
 | [OrbitWatch](https://github.com/mertacar-git/orbitwatch) | SGP4 propagation, ground tracks and observer horizon events | [Demo](https://mertacar-git.github.io/orbitwatch/) |
 | [Flight Control Lab](https://github.com/mertacar-git/flight-control-lab) | PID tuning, disturbance response and controller comparison | [Demo](https://mertacar-git.github.io/flight-control-lab/) |
@@ -18,7 +18,16 @@ I work on REST APIs and responsive interfaces, and I am developing a portfolio o
 | [Aero Telemetry Protocol](https://github.com/mertacar-git/aero-telemetry-protocol) | Python/C++ codecs, CRC checks, stream recovery and wire compatibility | [Demo](https://mertacar-git.github.io/aero-telemetry-protocol/) |
 | [Wing Design Lab](https://github.com/mertacar-git/wing-design-lab) | Parametric wing geometry, analytical lift/drag estimates and NACA profiles | [Demo](https://mertacar-git.github.io/wing-design-lab/) |
 
-Mission Control includes a browser-only demo and a separate local FastAPI/SQLite backend controlling its own ArduCopter SITL session. Real simulator acceptance covers mission execution, connection recovery, hold/resume/RTL and configured low-battery behavior.
+**FLW VECTOR**, by FLW Aerospace & Defense, continues the Mission Control project with an original scalable visual identity and one primary versioned experiment workflow. The repository and data formats remain compatible. [Brand and assets](https://github.com/mertacar-git/mission-control/blob/main/docs/BRAND.md).
+
+FLW VECTOR includes a browser-only demo and a separate local FastAPI/SQLite backend controlling its own ArduCopter SITL session. Real simulator acceptance covers mission execution, connection recovery, hold/resume/RTL and configured low-battery behavior.
+
+Mission Control v1.8 connects immutable experiment definitions and measured run
+results to single-command software/SITL acceptance. A clean Ubuntu environment
+passed 103 backend tests, 76 frontend tests, ten desktop/mobile browser cases,
+seven baseline SITL scenarios, five experiment runs and two real-time paired
+flights. Independent Windows serial captures remain separate from flight data;
+physical board/sensor validation is pending. [Acceptance evidence](https://github.com/mertacar-git/mission-control/blob/main/docs/verification/phases/phase-6/README.md) · [Captioned walkthrough](https://github.com/mertacar-git/mission-control/blob/main/docs/media/operations-v18.md).
 
 Mission Control v1.3 generates routes for concave survey areas and checks complete route segments independently in the backend. Its planning boundary records observed violations without configuring an autopilot geofence. [Survey method and seven-scenario SITL evidence](https://github.com/mertacar-git/mission-control/blob/main/docs/SURVEY_PLANNING.md).
 
